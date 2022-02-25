@@ -73,6 +73,11 @@
         flex-flow: column;
         justify-content: space-between;
     }
+    .dupli{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10px;
+    }
 </style>
 
 <body>
@@ -94,13 +99,14 @@
         <div class="table">
             <div class="tr">
                 <div class="th">아이디</div>
-                <div class="td"><input type="text"></div>
-                <button>중복확인</button>
+                <div class="td"><input type="text"> <div class="dupli"><button class="dupli">중복확인</button></div></div>
+                
             </div>
             <div class="tr">
                 <div class="th">비밀번호</div>
-                <div class="td"><input type="password"></div> 8~20자리 숫자와 대소문자,특수문자를 포함해주세요
+                <div class="td"><input type="password">8~20자리 숫자와 대소문자,특수문자를 포함해주세요</div> 
             </div>
+            
             <div class="tr">
                 <div class="th">비밀번호 확인</div>
                 <div class="td"><input type="password"></div>
@@ -122,10 +128,12 @@
 
                 <div class="td add">
                     <input type="text">
+                    <button>우편번호 검색</button>
                     <input type="text">
                     <input type="text">
+
                 </div>
-                <div class="btn"><button>우편번호 검색</button></div>
+                <div class="btn"></div>
             </div>
             <div class="tr">
                 <div class="th">비밀번호찾기 질문</div>
