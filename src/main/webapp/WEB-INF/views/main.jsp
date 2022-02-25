@@ -190,7 +190,7 @@
       <div class="item">
         <div class="item-name">상품명</div>
         <div class="item-desc">
-          상품설명
+          상품설명1
         </div>
         <div class="item-price">
           19,000원
